@@ -1,6 +1,7 @@
 :root {
 	--font-description-item-color: #757575;
 	--font-heading-color: #212121;
+	--accent-color: #ffffff;
 	--background-footer-hero-color: #2f303a;
 	--background-basic-color: #e5e5e5;
 	--background-team-button-color: #f5f4fa;
@@ -10,7 +11,6 @@
 	--address-color: #757575;
 	--fontsize-header-footer-advantage: 14px;
 	--fontsize-team-projectsdesc-buttons: 16px;
-	--fontsize-projectstitle: 18px;
 }
 
 li {
@@ -24,23 +24,24 @@ body {
 	font-style: var(--font-style);
 	letter-spacing: 0.03em;
 	font-weight: normal;
-	font-size: 16px;
+	font-size: var(--fontsize-team-projectsdesc-buttons);
 }
 header {
 	font-weight: 500;
 	line-height: 16px;
 	letter-spacing: 0.02em;
 	color: var(--font-heading-color);
-	background-color: #ffffff;
+	background-color: var(--accent-color);
 }
 footer {
 	line-height: 24px;
 	font-style: var(--font-style);
 	background-color: var(--background-footer-hero-color);
+	--font-heading-color: var(--accent-color);
 }
 address {
 	font-style: inherit;
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--font-heading-color);
 }
 .fontsize-header-footer-advantage {
 	font-size: var(--fontsize-header-footer-advantage);
@@ -59,7 +60,18 @@ address {
 }
 
 .contacts {
-	color: var(--address-color);
+	color: var(--font-description-item-color);
+}
+
+.studio-ref:hover,
+.studio-ref:focus,
+.mail:hover,
+.mail:focus {
+	color: var(--hover-web-color);
+}
+.portfolio-ref {
+	color: var(--hover-web-color);
+}
 .contacts-footer {
 	color: rgba(255, 255, 255, 0.6);
 }
@@ -74,7 +86,7 @@ address {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: var(--accent-color);
 }
 .order {
 	font-weight: bold;
@@ -83,7 +95,7 @@ address {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: #ffffff;
+	color: var(--accent-color);
 	background-color: var(--hover-web-color);
 }
 
@@ -95,7 +107,7 @@ address {
 }
 .advantages p {
 	line-height: 24px;
-	color: var(--address-color);
+	color: var(--font-description-item-color);
 }
 .business {
 	font-weight: bold;
@@ -115,4 +127,32 @@ address {
 }
 .team b {
 	color: var(--font-heading-color);
+}
+/* страница портфолио */
+.filter {
+	font-weight: 500;
+	line-height: 26px;
+	text-align: center;
+	color: var(--font-heading-color);
+	background-color: var(--background-team-button-color);
+	font-family: inherit;
+	font-style: inherit;
+	letter-spacing: inherit;
+	font-size: inherit;
+}
+.filter:hover,
+.filter:focus {
+	background-color: var(--hover-web-color);
+	color: var(--accent-color);
+}
+.photo-work b {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: var(--font-heading-color);
+}
+.photo-work p {
+	line-height: 30px;
+	color: var(--font-description-item-color);
 }

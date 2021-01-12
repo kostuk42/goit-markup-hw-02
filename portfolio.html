@@ -12,7 +12,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header class="fontsize-header-footer-advantage">
     
         <nav>
             <!-- логотип -->
@@ -23,7 +23,7 @@
                     <a href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a href="#">Портфолио</a>
+                    <a class="portfolio-ref" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
                     <a href="">Контакты</a>
@@ -31,30 +31,30 @@
             </ul>
             <!-- контакты -->
         </nav>
-        
+    
         <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</Ф>
         <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-        
+    
     
     </header>
     <main>
         <!-- портфолио -->
-        <section>
+        <section class="background">
             <!-- фильтр работ -->
             <h2 hidden>Портфолио</h2>
-            <ul>
-                <li><button type="button">Все</button></li>
-                <li><button type="button">Веб-сайты</button></li>
-                <li><button type="button">Приложения</button></li>
-                <li><button type="button">Дизайн</button></li>
-                <li><button type="button">Маркетинг</button></li>
+            <ul class="filter">
+                <li><button type="button" class="filter">Все</button></li>
+                <li><button type="button" class="filter">Веб-сайты</button></li>
+                <li><button type="button" class="filter">Приложения</button></li>
+                <li><button type="button" class="filter">Дизайн</button></li>
+                <li><button type="button" class="filter">Маркетинг</button></li>
             </ul>
             
             <!-- фото работ и описание -->
-            <ul>
+            <ul class="photo-work">
                 <li>
                     <img src="./img/portfolio/technokriak.png" alt="">
-                    <h2><b>Технокряк</b></h2>
+                    <p><b>Технокряк</b></p>
                     <p class="font-description-item">UI Веб-сайт</p>
                 </li>
                 <li>
@@ -102,15 +102,15 @@
         </section>
 
     </main>
-    <footer>
-        <a href=""><span>Web</span>Studio</a>
+    <footer class="fontsize-header-footer-advantage">
+        <a class="logo" href=""><span>Web</span>Studio</a>
         <address>
             <ul>
                 <li>
                     <p>г. Киев, пр-т Леси Украинки, 26</p>
                 </li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
