@@ -12,7 +12,9 @@
 	--fontsize-header-footer-advantage: 14px;
 	--fontsize-team-projectsdesc-buttons: 16px;
 }
-
+:visited {
+	color: inherit;
+}
 li {
 	list-style: none;
 }
