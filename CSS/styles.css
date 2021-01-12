@@ -30,13 +30,13 @@ body {
 }
 header {
 	font-weight: 500;
-	line-height: 16px;
+	line-height: 1;
 	letter-spacing: 0.02em;
 	color: var(--font-heading-color);
 	background-color: var(--accent-color);
 }
 footer {
-	line-height: 24px;
+	line-height: 1.71;
 	font-style: var(--font-style);
 	background-color: var(--background-footer-hero-color);
 	--font-heading-color: var(--accent-color);
@@ -53,7 +53,7 @@ address {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.2;
 	color: var(--font-heading-color);
 }
 
@@ -84,7 +84,7 @@ address {
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 1.36;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
@@ -92,7 +92,7 @@ address {
 }
 .order {
 	font-weight: bold;
-	line-height: 30px;
+	line-height: 1.87;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -103,18 +103,19 @@ address {
 
 .advantages h3 {
 	font-weight: bold;
-	line-height: 16px;
+	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--font-heading-color);
+	font-size: inherit;
 }
 .advantages p {
-	line-height: 24px;
+	line-height: 1.7;
 	color: var(--font-description-item-color);
 }
 .business {
 	font-weight: bold;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.16;
 	text-align: center;
 	color: var(--font-heading-color);
 }
@@ -123,7 +124,7 @@ address {
 }
 .team {
 	background-color: var(--background-team-button-color);
-	line-height: 19px;
+	line-height: 1.19;
 	text-align: center;
 	color: var(--font-description-item-color);
 }
@@ -133,7 +134,7 @@ address {
 /* страница портфолио */
 .filter {
 	font-weight: 500;
-	line-height: 26px;
+	line-height: 1.62;
 	text-align: center;
 	color: var(--font-heading-color);
 	background-color: var(--background-team-button-color);
@@ -150,11 +151,11 @@ address {
 .photo-work b {
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 36px;
+	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--font-heading-color);
 }
 .photo-work p {
-	line-height: 30px;
+	line-height: 1.87;
 	color: var(--font-description-item-color);
 }
