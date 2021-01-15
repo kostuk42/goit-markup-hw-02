@@ -6,7 +6,7 @@
 	--background-basic-color: #e5e5e5;
 	--background-team-button-color: #f5f4fa;
 	--hover-web-color: #2196f3;
-	--font-family: Roboto;
+	--font-family: 'Roboto';
 	--font-style: normal;
 	--address-color: #757575;
 	--fontsize-header-footer-advantage: 14px;
@@ -22,7 +22,7 @@ a {
 	text-decoration: none;
 }
 body {
-	font-family: var(--font-family);
+	font-family: var(--font-family), sans-serif;
 	font-style: var(--font-style);
 	letter-spacing: 0.03em;
 	font-weight: normal;
@@ -49,7 +49,7 @@ address {
 	font-size: var(--fontsize-header-footer-advantage);
 }
 .logo {
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
